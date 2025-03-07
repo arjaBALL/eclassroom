@@ -1,35 +1,19 @@
-@import './base.css';
+/** @format */
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+:root {
+  /* Define your custom color variables */
+  --primary-color: #42b883; /* Vue's default green */
+  --secondary-color: #35495e; /* Vue's default dark blue */
+  /* Change these colors to your preferred ones */
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+/* Apply colors to elements */
+body {
+  color: var(--secondary-color);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+a {
+  color: var(--primary-color);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
+/* Add more styling as needed */

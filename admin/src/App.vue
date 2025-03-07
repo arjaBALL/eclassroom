@@ -8,6 +8,18 @@
 </template>
 
 <script setup></script>
+
 <style>
-@import "./assets/register.css"; /* Import styles globally */
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b0d9e8;
+}
 </style>
